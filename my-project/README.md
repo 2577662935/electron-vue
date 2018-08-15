@@ -1,6 +1,6 @@
-# test
+# electron-vue
 
-> test
+> 测试程序
 
 #### Build Setup
 
@@ -11,9 +11,11 @@ npm install
 # serve with hot reload at localhost:9080
 npm run dev
 
-# build electron application for production
+# build electron application for production 只生成vue静态文件不会自动打包，打包程序已经关闭，因为打包会失败
 npm run build
 
+# 打包成桌面程序 执行如下命令 
+electron-builder 
 
 # lint all JS/Vue component files in `src/`
 npm run lint
@@ -22,4 +24,4 @@ npm run lint
 
 ---
 
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[4c6ee7b](https://github.com/SimulatedGREG/electron-vue/tree/4c6ee7bf4f9b4aa647a22ec1c1ca29c2e59c3645) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
+This project was generated with [electron-vue](https://github.com/2577662935/electron-vue/tree/master)
